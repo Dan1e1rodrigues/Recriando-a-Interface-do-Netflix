@@ -44,15 +44,24 @@ header nav a:hover{
 }
 
 /*Filme principal*/
-.filme-principal{
+.filmeprincipal {
     font-size: 16px;
     /* background-image: url('//Aula-Netflix/img/Coletivo-Terror.webp'); */
-    background:linear-gradient(rgba(0,0,0,.50)url("/img/coletivo.terror.jpg"));
-    height:400px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('img/Coletivo-Terror.webp');
+    
+    height:650px;
     background-size:cover;
 
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.filmeprincipal {
+    margin-bottom: 90px;
+}
+
+.titulo{
+    font-size:40px;
 }
