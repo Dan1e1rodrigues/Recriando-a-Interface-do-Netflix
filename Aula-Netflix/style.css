@@ -49,7 +49,7 @@ header nav a:hover{
     /* background-image: url('//Aula-Netflix/img/Coletivo-Terror.webp'); */
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('img/Coletivo-Terror.webp');
     
-    height:650px;
+    height:700px;
     background-size:cover;
 
     display:flex;
@@ -82,10 +82,22 @@ header nav a:hover{
 }
 
 .botao:hover{
-    background-color: white;
+    background-color: red;
     color: black;
 }
 
-.botao i{
+/* O I fica aqui */
+.botao {
     margin-right: 8px;
+    width:400px;
+}
+
+/* Distancia da margin  */
+.container{
+    margin-left: 20px;
+}
+
+.filmeprincipal .container {
+    width: 400px;
+    margin-top:20px;
 }
